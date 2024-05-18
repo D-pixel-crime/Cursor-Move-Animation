@@ -17,7 +17,7 @@ const Navbar = () => {
             </span>
           </li>
           <li className="flex-center">
-            <button className="bg-[yellowgreen] flex-center shadow-md shadow-black rounded-lg text-black font-semibold hover:bg-transparent hover:text-[yellowgreen] border border-[yellowgreen] px-2 py-1 tracking-tighter">
+            <button className="bg-[yellowgreen] flex-center shadow-md shadow-black rounded-lg text-black font-semibold hover:bg-transparent hover:text-[yellowgreen] border border-[yellowgreen] p-2 tracking-tighter">
               Buy now
             </button>
           </li>

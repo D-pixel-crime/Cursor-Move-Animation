@@ -2,12 +2,12 @@ import { Icon } from "@iconify/react/dist/iconify.js";
 
 const ReviewSection = () => {
   return (
-    <div className="flex flex-col mt-28 gap-32">
+    <div className="flex flex-col gap-32">
       <div className="flex flex-col gap-16">
         <div className="text-center text-xl">
           Trusted by thousands of users around the world
         </div>
-        <div className="flex flex-row justify-around items-center">
+        <div className="flex flex-row justify-around items-center gap-48">
           <div className="flex items-center gap-2">
             <img
               src="/motion art/navbar-leaf.png"
@@ -39,9 +39,9 @@ const ReviewSection = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-[2fr,1fr] gap-72">
+      <div className="grid grid-cols-[3fr,1fr] gap-72">
         <div className="flex flex-col col-start-1 gap-6">
-          <div className="text-4xl">
+          <div className="text-4xl font-semibold tracking-wider">
             Turn Your Cursor Into A Colorful Magic Wand & Charm Your Visitors
           </div>
           <div className="text-base text-gray-400 tracking-wider">

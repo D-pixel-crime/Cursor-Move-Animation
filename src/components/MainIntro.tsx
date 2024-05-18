@@ -1,8 +1,6 @@
-import React from "react"; // Add missing import
-
 const MainIntro = () => {
   return (
-    <div>
+    <div className="flex flex-col gap-20">
       <div className="flex justify-between">
         <div className="-translate-x-3">
           <img
@@ -18,7 +16,7 @@ const MainIntro = () => {
           </button>
         </div>
       </div>
-      <div className="grid grid-cols-[1fr,3fr] mt-20">
+      <div className="grid grid-cols-[1fr,3fr]">
         <div className="col-start-1 text-xl">
           <div className="bg-gradient-to-r from-orange-500 to-purple-600 font-semibold to-50% bg-clip-text text-transparent w-fit">
             Transform Your Website

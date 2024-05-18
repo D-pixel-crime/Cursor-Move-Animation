@@ -15,7 +15,7 @@ const Tabs = () => {
           </div>
           <img src="/motion art/section2.png" alt="section2" />
         </div>
-        <div className="flex gap-8 mt-14 flex-col h-fit rounded-2xl bg-gradient-to-bl from-slate-900 to-violet-900/40 px-8 py-10">
+        <div className="flex gap-8 mt-14 flex-col h-fit rounded-2xl bg-gradient-to-b from-slate-900 to-violet-900/40 px-8 py-10">
           <div className="text-2xl text-slate-200 font-medium">
             Apply On Page
           </div>
@@ -25,6 +25,14 @@ const Tabs = () => {
           </div>
           <img src="/motion art/section1.png" alt="section1" />
         </div>
+      </div>
+      <div className="flex flex-col rounded-2xl bg-gradient-to-b from-slate-900 to-violet-900/40 p-10 items-center gap-10">
+        <div className="text-3xl">Supported by All Popular Browsers</div>
+        <div className="text-slate-400">
+          Rest assured, Motion Art is designed to be compatible with all major
+          web browsers.
+        </div>
+        <img src="/motion art/browsers.png" alt="browsers" />
       </div>
     </div>
   );

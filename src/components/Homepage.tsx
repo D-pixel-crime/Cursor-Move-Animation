@@ -1,3 +1,4 @@
+import Features from "./Features";
 import MainIntro from "./MainIntro";
 import ReviewSection from "./ReviewSection";
 import Tabs from "./Tabs";
@@ -8,6 +9,7 @@ const Homepage = () => {
       <MainIntro />
       <ReviewSection />
       <Tabs />
+      <Features />
     </section>
   );
 };

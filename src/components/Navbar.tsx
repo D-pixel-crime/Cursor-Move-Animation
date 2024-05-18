@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <header className="fixed z-50 top-0 left-0 w-full py-6 px-8 bg-neutral-800 h-fit text-white">
+    <header className="fixed z-50 top-0 left-0 w-full py-6 px-8 bg-neutral-800 h-fit text-white shadow-lg shadow-black">
       <nav>
         <ul className="w-full flex justify-between items-center">
           <li className="flex-center text-2xl">
